@@ -1,0 +1,16 @@
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.pytest_cache/
+
+# Data files (course datasets, homework inputs) -- kept local, not versioned
+data/*
+!data/.gitkeep
+
+# Environment / secrets
+.env
+
+# OS/editor cruft
+.DS_Store
+Thumbs.db
